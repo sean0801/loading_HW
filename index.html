@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ultimate Guitar - Maintenance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #000; /* Updated background color */
+            display: flex;
+            flex-direction: column;
+            /*justify-content: center;*/
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffd609; /* Changed to black */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1,h2, p {
+            color: #000; /* Changed to white */
+        }
+        .guitar-image {
+            width: 500px; /* Increased the width */
+            margin-top: 20px;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .chords {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            animation: fadeIn 1s ease-in-out; /* Added fade-in effect */
+        }
+        .chord {
+            margin: 10px;
+            border: 5px solid #ffd609; /* Border color */
+            padding: 5px; /* Padding */
+            border-radius: 5px; /* Border radius */
+            background-color: #fff; /* Background color */
+        }
+        .chord img {
+            width: 100px;
+            height: auto;
+        }
+        .chords-text {
+            color: #ffd609;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ultimate_Guitar_Logo.svg/2048px-Ultimate_Guitar_Logo.svg.png" alt="Ultimate Guitar Logo" class="logo">
+<div class="container">
+    <h1>Crashed...</h1>
+    <p>網站當機摔電腦就好，吉他是無辜的</p>
+    <p>&mdash; The Ultimate Guitar Team</p>
+    <img src="https://previews.123rf.com/images/yanukit/yanukit2004/yanukit200400054/144355229-broken-guitar-on-sand-in-sad-song-emotion-concept-on-the-sand-beach.jpg" alt="Guitar" class="guitar-image">
+</div>
+<div class="chords">
+    <div class="chords-text">My</div>
+    <div class="chord"><img src="https://chordbank.com/cb4dg/bestial_sam_2_750.png" alt="B Chord"></div>
+    <div class="chord"><img src="https://chordbank.com/cb4dg/artful_mae_1_750.png" alt="A Chord"></div>
+    <div class="chord"><img src="https://chordbank.com/cb4dg/acidic_mel_1_750.png" alt="D Chord"></div>
+</div>
+</body>
+</html>
